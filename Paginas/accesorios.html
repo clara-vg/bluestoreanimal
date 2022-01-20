@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- estilos css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Blue Store Animal</title>
+</head>
+<body>
+  <header>
+<!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ms-10">
+      <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img class="logo" src="../Recursos/Imagenes/logo/BlueStore png.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/alimentos.html">Alimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/accesorios.html">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+      <section>
+        <h1 class="texto-accesorios">Accesorios</h1>
+          <p class="texto__sub"> Aqui vas a poder encontrar todo tipo de accesorios para tu mascota!</p>
+<!-- Acordeon -->
+      </section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+          </div>
+          <div class="accordion mt-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <strong>Conoce la variedad de alimentos que trabajamos </strong>
+            </button>
+              </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Hay tres tipos de alimento para mascotas:</strong>  alimentos secos, semi húmedos y enlatados. Cada alimento para mascota se diferencia según la humedad, el costo, el gusto y la calidad nutritiva por Kg. de alimento. Todos estos factores deben considerarse al evaluar una dieta alimentaria para su mascota. A pesar de estas diferencias, gracias a la tecnología avanzada todos los tipos de alimento para mascotas están formulados para proporcionar una nutrición completa y balanceada
+              </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong> ¿Los mejores alimentos para mascotas? </strong>
+            </button>
+              </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  La gran cantidad de opciones que tienen los dueños de mascotas cuando compran alimento para mascotas a veces dificulta la decisión de qué producto comprar. Es importante considerar el lugar donde comprar, la capacidad adquisitiva y las conveniencias, gustos y grado de digestión deseados. Mientras que el producto proporcione una nutrición 100% balanceada y completa, la clase y categoría de alimento es sólo una cuestión de preferencia del dueño.
+              </div>
+              </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <strong>Categorías de Alimentos para Mascotas</strong>
+              </button>
+                </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                        Además de diferenciar los alimentos para mascotas según su consistencia, los productos también se distinguen en base al costo, lugar de compra, densidad nutritiva (cantidad de calorías por Kg.) y en menor grado, sabor y digestión. Productos Super Premium, Premium y No-Premium brindan una nutrición 100% balanceada y completa. <br>
+                        En general, los productos super premium están en el extremo superior por sus características, los productos premium están en el medio y los no-premium están en el extremo inferior por su costo y densidad nutritiva. <br>
+                        Algunos alimentos para mascotas se caracterizan por su sabor. Estos productos con frecuencia contienen trocitos de galletita de distintos tamaños y formas de diferentes sabores. Estos alimentos están dirigidos a los dueños de mascotas que están interesados en complacer a su mascota y ofrecerle una gran variedad.
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- End Acordeon -->
+<!-- Cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../Recursos/Imagenes/accesorios/7.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card__title">Cama Milo</h5>
+                  <p class="card-text"> Un formato conveniente para el descanso de una mascota, que no es solo una cama, sino un marco en forma de rodillos o laterales.  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../Recursos/Imagenes/accesorios/8.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card__title">Cama Soft</h5>
+                  <p class="card-text">Perfecta para perros y gatos de tamaño chico! <br>  Es muy comoda y suave. <br> Hecha de materiales reciclados.</p>
+                </div> 
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../Recursos/Imagenes/accesorios/6.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card__title">Cama Velvet</h5>
+                  <p class="card-text">Esta es la opción más simple y económica y es más adecuada para perros de tamaño mediano a grande! <br> Hecha de materiales reciclados, grande y muy cozy. .</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+<!-- End Cards -->
+<!-- Footer  -->
+  <footer>
+    <nav class="pie">
+        <img src="../Recursos/Imagenes/logo/wpp.png" alt="" class="wpp__img">
+          <p class="wpp">2262-235363 <br> 2262-506690</p>
+        <img src="../Recursos/Imagenes/logo/ig.png" alt="" class="ig__img">
+          <p class="ig">@distrbluestore</p>
+        <img src="../Recursos/Imagenes/logo/fb.png" alt="" class="fb__img">
+          <p class="fb">Blue Store Animal</p>
+    </nav>
+        </footer>
+    <!-- End footer -->
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- fin del script -->
+</body>
+</html>

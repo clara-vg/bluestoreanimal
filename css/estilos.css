@@ -1,0 +1,267 @@
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-image: url("../Recursos/Imagenes/logo/Desktop.png");
+}
+
+/*INDEX SECTION*/
+
+.logo {
+    width: 40px;
+}
+.container-fluid {
+    background-color: rgb(109, 143, 130);
+    margin: auto;
+}
+
+/*CAROUSEL*/
+
+@media (min-width: 370px) and (max-width: 600px) {
+    #carouselExampleControls {
+       display: none;
+    } 
+    .carousel-item img, svg {
+        display: none;
+    }
+}
+@media (min-width: 95px) and (max-width: 369px) {
+    .carousel-item img, svg {
+        display: none;
+    }
+    #carouselExampleControls {
+        display: none;
+     } 
+}
+
+#carouselExampleControls {
+    width: 65%;
+    margin: auto;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    border: 7px solid rgb(109, 143, 130); 
+}
+.carousel-item img, svg {
+    vertical-align: middle;
+    height: 400px;
+    width: 100%;
+}
+
+/*PRACTICA DE GRID*/
+
+@media (min-width: 95px) and (max-width: 480px) {
+    .grid__texto__promocion{
+        width: 50px;
+    }
+    .bubble{
+        display: none;
+    }
+    .dog{
+        display: none;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(109, 143, 130); 
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}
+.grid__item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bubble {
+    width: 20%;
+    margin-top: 5%;
+    margin-right:  60%;
+    transition: width 2s, height 2s, transform 2s;
+}
+.bubble:hover {
+    transform: rotate(360deg);
+    transform: scale(1.5, 1.5);
+}
+.grid__texto__promocion {
+    color: white;
+    font-style: italic;
+    height: 220px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 300px;
+    justify-content: center;
+}
+.dog {
+    width: 21%;
+    margin-left: 65%;
+    margin-top: -50%;
+}
+
+/*ALIMENTO SECTIONS*/
+
+/*Carousel Img*/
+.subtitulo {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;
+}
+.accordion-item {
+    background-color: rgb(217, 243, 232);
+}
+.accordion-button {
+    background-color: rgb(217, 243, 232);
+}
+
+/*ACCESORIOS SECTION*/
+
+.card {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(109, 143, 130);
+} 
+.card__title {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+/* variables */
+.texto {
+    display: flex;
+    height: 220px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto-accesorios {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto__sub {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*CONTACTOS section*/
+/*CAJA CONTACTOS SECTION*/
+
+.box__texto {
+    display: flex;
+    background-color: #8bb499;
+    max-width: 1000px;
+    width: 875px;
+    max-height: 1000px;
+    height: 285px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 2%;
+}
+.texto__contactos {
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 7%;
+}  
+ 
+#formulario {
+    width: 65%;
+    margin: auto;
+}
+
+/*NOSOTROS SECTION*/
+/*CAJA NOSOTROS SECTION*/
+
+.caja-contenedora {
+    display: flex;
+    background-color: #8bb499;
+    max-width: 100%;
+    width: 800px;
+    max-height: 100%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    }
+.caja-contenedora p {
+    display: table-cell;
+    margin: 0px;
+    padding: 0 1erm;
+    margin-top: 30%;
+}
+.nosotros {
+    font-size: 26px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    justify-content: center;
+}
+.texto__nosotros {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    margin: auto;
+}
+
+/*FOOTER SECTION*/
+
+@media (min-width: 170px) and (max-width: 560px){
+    p{
+        display: none;
+    }
+  }
+    
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(109, 143, 130);
+    padding: 10px ;
+    margin-top: 3%;
+}
+.wpp__img {
+    width: 30px;
+    height: 30px;
+    margin-right: 2%;
+}
+.ig__img {
+    width: 30px;
+    height: 30px;
+}
+.fb__img {
+    width: 30px;
+    height: 30px;
+}
+p   {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+
